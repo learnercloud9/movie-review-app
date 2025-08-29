@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Review App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🎬 Add Review</h2>
+  <form id="reviewForm">
+    <input type="text" id="movie" placeholder="Movie Name" required><br>
+    <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required><br>
+    <textarea id="comment" placeholder="Comment"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>📋 All Reviews</h2>
+  <div id="reviews"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

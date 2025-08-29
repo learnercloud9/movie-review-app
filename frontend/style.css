@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+input, textarea, button {
+  margin: 5px 0;
+  padding: 8px;
+  width: 300px;
+}
+button {
+  background: #0078D4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #005A9E;
+}
+#reviews {
+  margin-top: 20px;
+}
